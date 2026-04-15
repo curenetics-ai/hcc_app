@@ -1,0 +1,66 @@
+@"
+# Python
+__pycache__/
+*.py[codz]
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# Virtual Environments
+venv/
+.venv/
+venv_frontend/
+venv_backend/
+.venv_frontend/
+.venv_backend/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+MANIFEST
+
+# Streamlit
+.streamlit/
+.streamlit/secrets.toml
+
+# Environment variables
+.env
+.envrc
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Dataset files
+*.csv
+*.tsv
+
+# ML / model outputs
+mlruns/
+*.h5
+*.pt
+*.pkl
+*.safetensors
+Backend/tmp_ner_model/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+.ruff_cache/
+"@ | Out-File -FilePath .gitignore -Encoding utf8
