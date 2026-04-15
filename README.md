@@ -1,11 +1,5 @@
 # Hepatocellular_Carcinoma_Response_Predictor
 
-# HCC Treatment Outcome Demo 🧬
-
-This is a **private demo app** for Curenetics and our clinical team to explore predictions for **hepatocellular carcinoma (HCC) treatment outcomes**.  
-
-> ⚠️ This is for internal demonstration only. Models and predictions are **not for real clinical decision-making**.
-
 ---
 
 ## What It Does
